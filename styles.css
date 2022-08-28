@@ -48,6 +48,7 @@ body {
     background: var(--color-background);
     user-select: none;
     overflow-x: hidden;
+    color: var(--color-dark);
 }
 
 .container {
@@ -155,7 +156,6 @@ aside .close {
 
 /* ========================= SIDEBAR ========================= */
 aside .sidebar {
-    background: white;
     display: flex;
     flex-direction: column;
     height: 86vh;
@@ -222,3 +222,5 @@ aside .sidebar .message-count {
     font-size: 11px;
     border-radius: var(--border-radius-1);
 }
+
+/* ========================= MAIN ========================= */
